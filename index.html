@@ -14,28 +14,32 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
 		<!-- Link of soc-med -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 	</head>
+
 	<body>
 		<!----hero Section start---->
 
 		<!-- Navbar -->
 
-		<nav class="navbar navbar-expand-lg navbar-dark">
-		  <a class="navbar-brand mr-auto" href="#">My <span>Portfolio</span></a>
+		<nav class="fixed-top navbar navbar-expand-lg bg-secondary navbar-light">
+		  <a class="navbar-brand mr-auto text-light" href="./index.html">My <span>Portfolio</span></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNav">
 		    <ul class="navbar-nav ml-auto">
 		      <li class="nav-item active">
-		        <a class="nav-link" href="#">About me<span class="sr-only">(current)</span></a>
+		        <a class="nav-link text-light" href="#ako">About me<span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Projects</a>
+		        <a class="nav-link text-light" href="#projectko">Projects</a>
 		      </li>
 		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Contact Me</a>
+		        <a class="nav-link text-light" href="#toolsko">Tools</a>
+		      </li>
+		      <li class="nav-item active">
+		        <a class="nav-link text-light" href="#contactko">Contact Me</a>
 		      </li>
 		    </ul>
 		  </div>
@@ -43,8 +47,8 @@
 		<!-- End of Navbar -->
 
 					<!-- Main Body -->
-					<div class = "col-md-12 p-0">
-						<div class = "container-fluid bg-dark min-vh-100 text-light">
+					<div class = "col-md-12 p-0 mt-4" id="ako">
+						<div class = "container-fluid bg-dark min-vh-20 text-light">
 							<img src="./imgs/me.jpg" class="col-md-4 col-4 mt-5 rounded-circle offset-4"/>
 							<div class="col-12 text-center mt-2">	
 								<h1>Harold <span>Jamin</h1>
@@ -52,20 +56,20 @@
 							</div>
 							<div class = "row">
 								<div class = "col-10 offset-1 text-center" id="front-end">
-									Hi, I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more interactive.I can provide clean code and pixel perfect design. A responsive design makes your website accessible to all users, regardless of their device.
+									Hi, I am a soon to be a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more interactive.I can provide clean code and pixel perfect design. A responsive design makes your website accessible to all users, regardless of their device.
 								</div>						
 							</div>
 						</div>
 
 						<!-- Cards -->
-						<div class= "bg-white text-light min-vh-100 p-3">
-							<h2 class="text-center">My Projects</h2>
+						<div class= "bg-secondary text-light min-vh-50 p-3" id="projectko">
+							<h2 class="text-center text-light">My Projects</h2>
 							<div class = "d-flex flex-md-row flex-column justify-content-md-around align-items-center mt-2">
 								<!-- First card -->
 								<div class="card bg-dark col-md-3 col-10 mt-md-0 mt-2">
-								  <img src="./imgs/one.jpg" class="card-img-top p-2" alt="HTML Image">
+								  <img src="./imgs/one (2).jpg" class="card-img-top p-2" alt="HTML Image">
 								  <div class="card-body">
-								    <h5 class="card-title">HTML</h5>
+								    <h5 class="card-title text-center">HTML</h5>
 								    <p class="card-text">Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 								    <a href="#" class="btn btn-primary">Go to Project</a>
 								  </div>
@@ -74,9 +78,9 @@
 
 								<!-- Second card -->
 									<div class="card bg-dark col-md-3 col-10 mt-md-0 mt-2">
-									  <img src="./imgs/two.jpg" class="card-img-top p-2" alt="Bootstrap Image">
+									  <img src="./imgs/two (2).jpg" class="card-img-top p-2" alt="Bootstrap Image">
 									  <div class="card-body">
-									    <h5 class="card-title">Bootstrap</h5>
+									    <h5 class="card-title text-center">Bootstrap</h5>
 									    <p class="card-text">Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 									    <a href="#" class="btn btn-primary">Go to Project</a>
 									  </div>
@@ -85,9 +89,9 @@
 
 								<!-- Third card -->
 									<div class="card bg-dark col-md-3 col-10 mt-md-0 mt-2">
-									  <img src="./imgs/three.jpg" class="card-img-top p-2" alt="NodeJS Image">
+									  <img src="./imgs/three (2).jpg" class="card-img-top p-2" alt="NodeJS Image">
 									  <div class="card-body">
-									    <h5 class="card-title">NodeJS</h5>
+									    <h5 class="card-title text-center">NodeJS</h5>
 									    <p class="card-text">Every website should be built with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 									    <a href="#" class="btn btn-primary">Go to Project</a>
 									  </div>
@@ -97,9 +101,40 @@
 						</div>
 						<!-- End of Cards -->
 
-						<div class = "d-flex flex-column bg-dark min-vh-100 p-3 text-light">
+						<!-- Core Tools Section Start -->
+									<div class="min-vh-60 bg-secondary" id="toolsko">
+						                <h2 class="text-center text-light">Core Tools</h2>	
+						                    <div class=" d-flex flex-row justify-content-center pl-5 pr-5">
+						                    	<img width="100" src="images/logo-html5.png" class="img-fluid" />
+						                        <img width="100" src="images/logo-css3.png" class="img-fluid" />
+						                        <img width="100" src="images/logo-javascript.png" class="img-fluid" />
+						                    </div>
+						                
+						              </div>
+						                <!-- Core Tools Section End -->
+
+						              <div class = "min-vh-60 bg-secondary">
+						              	<h3 class="bg-secondary text-center text-light">Other Tools</h3>
+						                  <div class="d-md-flex flex-row justify-content-center">
+						                      <img width="100" src="images/logo-mongodb.png"/>
+						                      <img width="100" src="images/logo-nodejs.png"/>
+						                      <img width="100" src="images/logo-expressjs.png"/>
+						                      <img width="100" src="images/logo-react.png"/>
+						                      <img width="100" src="images/logo-heroku.png"/>
+						                  </div>
+						                  <div class="d-md-flex flex-row justify-content-center pl-5 pr-5">
+						                      <img width="100" src="images/logo-git.png"/>
+						                      <img width="100" src="images/logo-sublime-text-3.png"/>
+						                      <img width="100" src="images/logo-postman.png"/>
+						                      <img width="100" src="images/logo-gitlab-ci-cd.png"/>
+						                  </div>
+						              </div>
+						              <!-- Other Tools Section End -->
+						                
+
+						<div class = "d-flex flex-column bg-dark min-vh-50 p-3 text-light pb-5" id="contactko">
 							<!-- Contact Me Form -->
-							<h2 class="text-light text-center">Contact Me</h2>
+							<h2 class="text-light text-center" >Contact Me</h2>
 									<form class="container-fluid bg-light p-1 mx-auto col-4">
 									<div class="form-column">
 									  <div class="form-group col-md-12">
@@ -117,7 +152,7 @@
 									 </div>
 
 									  <!-- Button trigger modal -->
-									  <button type="button" class="btn btn-dark col-md-8 offset-2" data-toggle="modal" data-target="#exampleModal">
+									  <button type="button" class="btn btn-dark col-8 offset-2" data-toggle="modal" data-target="#exampleModal">
 									    Send Email
 									  </button>
 
@@ -152,19 +187,21 @@
 		<!-- End of Main Content -->
 
 		<!------Contact Me------>
-		<div class="contact-me">
+		<div class="contact-me text-center">
 			<p>Let Me Get You A Beautiful Website.</p>
 			<a class="button-two" href="#">Hire Me</a>
 		</div>
 
 		<!------footer start--------->
 		<footer>
-			<p class="text-center">Harold Jamin</p>
-			<p class="text-center">For more information about HTML, CSS, and coding tutorial - please click on the link below to contact me on my social media.</p>
-			<div class="social">
-				<a href="#"><i class="fab fa-facebook-f"></i></a>
-				<a href="#"><i class="fab fa-instagram"></i></a>
-				<a href="#"><i class="fab fa-dribbble"></i></a>
+			<div class="col-8 text-light text-center offset-2 pb-1">
+			<p>For more information about HTML, CSS, and coding tutorial - please click on the link below to contact me on my social media.</p>
+			</div>
+			<div class="social col-2 offset-5">
+				<a href="https://www.facebook.com/" target = "_blank"><i class="fab fa-facebook-f"></i></a>
+				<a href="https://www.instagram.com/" target = "_blank"><i class="fab fa-instagram"></i></a>
+			</div>
+			<div class=" text-light col-2 offset-5">
 			</div>
 		</footer>
 

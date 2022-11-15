@@ -8,10 +8,7 @@ span{
 	color: #FFBF6B;
 }
 
-nav{
-	background-color: #47444B;
 }
-
 .card-title{
 	text-align: center;
 }
@@ -61,27 +58,9 @@ nav{
 	cursor: pointer;
 }
 footer{
-	position: relative;
 	width: 100%;
-	height: 400px;
+	height: 200px;
 	background: #101010;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-footer p:nth-child(1){
-	font-size: 30px;
-	color: white;
-	margin-bottom: 20px;
-	font-weight: bold;
-}
-footer p:nth-child(2){
-	color: white;
-	font-size: 17px;
-	width: 500px;
-	text-align: center;
-	line-height: 26px;
 }
 .social{
 	display: flex;
